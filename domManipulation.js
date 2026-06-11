@@ -22,23 +22,25 @@ let image = document.querySelector('.image');
 //   - The `location` paragraph.
 
 contentButton.addEventListener('click', function() {
-
-
-
-
-
-
+    myName.innerHTML = "Tor"
+    myHobby.innerHTML = "chess"
+    myLocation.innerHTML = "Indy"
 });
 
 // 3. Add an event listener to the `image1Button`
 // 4. When clicked, it should change the source of `image` to another image URL.
-
+image1Button.addEventListener("click", function() {
+    image.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Chess_pieces_close_up.jpg/1920px-Chess_pieces_close_up.jpg"
+})
 
 
 
 
 // 5. Add an event listener to the `image2Button`
 // 6. When clicked, it should change the source of `image` to another image URL.
+image2Button.addEventListener("mouseover", function() {
+    image.src = "https://www.kieferusa.com/wp-content/uploads/2019/07/baseball-facts-200x200.jpg"
+})
 
 
 // BONUS
